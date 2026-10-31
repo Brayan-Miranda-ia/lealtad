@@ -1,69 +1,120 @@
 body{
-margin: 0;
-padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
-.inicio img {
-  width: 100%;
-  height: 140%;
-  margin: 5px;
-  border: solid 3px yellowgreen;
-  position: absolute;
+.principal{
+  border: solid 3px rgb(26, 24, 19);
 }
 
-
-
-.fondito img{
-  width: 600px;
-  height: 700px;
-  position: relative;
-  left: 55%;
-  top: 280px;
+.formularios{
+  width: 1900px;
+  height: 50px;
+  background-color: rgb(235, 234, 241);
+  text-align: center;
   border-radius: 10px;
 
+
 }
 
-.formulario h1{
- position: absolute;
-  left: 60%;
-  top: 290px;
-  color: blue; 
+header {
+  position: absolute;
+
 }
 
-.formulario p{
-   position: relative;
-  left: 61%;
-  bottom: 400px;
+.formularios a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 60px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(47, 68, 139);
+}
+
+
+.fondo img{
+  width: 100%;
+}
+
+.fondito img{
+  border-radius: 20px;
+  top: 240px;
+  left: 55%;
+  width: 700px;
+  height: 900px;
+  position: absolute;
+  bottom: 600px;
+}
+
+.texto {
+  font-size: 20px;
+  width: 450px;
+  text-align: center;
+  position:absolute;
+  top: 260px;
+  left: 63%;
   color: blue;
-  font-size: 20px; 
- margin-top: 30px;
-
 }
-
-
- .ingreso{
-  border-radius: 20PX;
-  position: relative;
-  background-color: rgba(210, 213, 240, 0.479);
-  width: 400px;
-  height: 500px;
-  left: 60%;
-  bottom: 400px;
+ p {
+ font-size: 22px;
  }
 
  form{
- padding-top: 80px;
-  height: 400px;
-  text-align: center; 
- 
+  color: blue;
+  text-align: center;
+  border-radius: 20px;
+  width: 500px;
+  height: 550px;
+  position: absolute;
+  top: 500px;
+  left: 60%;
+  background-color: rgba(180, 204, 224, 0.432);
+
  }
 
+ form input{
+  width: 420px;
+  height: 40px;
+  border-radius: 15px;
+ }
 
-  input{
-  margin: 20px;
-  height: 25px;
-  width: 210px; 
-  font-size: 15px;
+ .remember {
+position: absolute;
+  right: 200px;
+  font-size: 17px;
+ }
+
+ .contra{
+  position: absolute;
+  font-size: 20px;
+ }
+
+ 
+
+ button{
+  position: absolute;
+  top: 370px;
+  right: 100px;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
   color: blue;
+
+ }
+
+ .mensaje{
+  font-family: "nunito" sans-serif;
+  letter-spacing: -1.5px;
+  font-weight: 900;
+  position: absolute;
+  top: 220px;
+  left: 3%;
+  color:rgb(63, 26, 228);
+ }
+
+ .logo{
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 30px;
  }
